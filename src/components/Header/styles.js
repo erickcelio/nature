@@ -3,6 +3,10 @@ import { Row } from 'styles/Common'
 import styled from 'styled-components'
 
 export const Container = styled(Row)`
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
   background-color: ${Colors.PUERTO_RICO};
   color: ${Colors.WHITE};
   height: 6.7rem;

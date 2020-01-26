@@ -3,5 +3,6 @@ export default {
   PUERTO_RICO: '#56CC9D',
   RED_ORANGE: '#FF4338',
   SEASHELL_PEACH: '#FFF3EA',
-  WHITE: '#FFF'
+  WHITE: '#FFF',
+  LGITH_BLACK: 'rgba(0, 0, 0, 0.7)'
 }

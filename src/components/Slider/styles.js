@@ -3,19 +3,20 @@ import styled, { css } from 'styled-components'
 import Colors from 'styles/Colors'
 
 export const Container = styled.div`
+  margin-top: 6.7rem;
+  display: flex;
 `
 
 export const SlideContainer = styled.div`
   background-color: ${Colors.BLACK};
-  display: block;
   opacity: 0;
   position: absolute;
   transition: .5s;
   width: 100%;
-  overflow: hidden;
 
   ${props => props.active && css`
       opacity: 1;
+      position: relative;
   `}
 `
 

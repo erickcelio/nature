@@ -12,7 +12,7 @@ const Slider = ({ items, time }) => {
     }, time)
 
     return () => clearInterval(interval)
-  }, [])
+  }, [items.length, time])
 
   return (
     <Container>

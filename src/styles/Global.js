@@ -5,6 +5,7 @@ export const GlobalStyle = createGlobalStyle`
   html {
     font-size: 62.5%;
     font-family: 'Playfair Display', serif;
+    scroll-behavior: smooth;
   }
 
   body {
